@@ -1,5 +1,31 @@
+import React from 'react';
+import Main from './components/main/Main';
+import Nav from './components/Nav';
+
 const App = () => {
-  return <h1>1</h1>;
+  return (
+    <React.Fragment>
+      <Nav />
+      <Main>
+        <article>
+          <p></p>
+          <p></p>
+        </article>
+        <article>
+          <div>
+            <p></p>
+            <p></p>
+            <p></p>
+          </div>
+          <div>
+            <p></p>
+            <p></p>
+            <button></button>
+          </div>
+        </article>
+      </Main>
+    </React.Fragment>
+  );
 };
 
 export default App;
